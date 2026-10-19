@@ -23,8 +23,11 @@ Nobody writes documentation. Recall learns every fix from the pathfinder's termi
    stack's `RecallUrl`, for example `https://3-80-65-109.sslip.io`).
 4. **Join the team:** the presenter runs **Recall: Sign in** → **Create a team** once and shares the invite code.
    Everyone else runs **Recall: Sign in** → **Join a team** with that code.
-5. **Get this project** onto your laptop (copy the folder, or `git clone` it once it is on GitHub) and open the folder
-   in VS Code. **Do not run `npm install` yet**: challenge 1 needs it missing.
+5. **Get this project** and open the folder in VS Code:
+   ```bash
+   git clone https://github.com/bhargavchetanya/recall-playground.git
+   ```
+   **Do not run `npm install` yet**: challenge 1 needs it missing.
 6. Check the status bar at the bottom left shows **`Recall ●`**.
 
 Run every command in **VS Code's own terminal** (**Ctrl+`**). Recall only sees VS Code terminals.
